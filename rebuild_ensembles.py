@@ -4,7 +4,7 @@ Rebuild ensemble pickles from existing trained models.
 This script re-runs ONLY the ensemble step (weighted averaging + stacking)
 using the already-saved individual model checkpoints. No GPU training needed.
 Takes ~2-5 minutes total.
-
+Need to run only once after training a new set of models
 Usage:
     python rebuild_ensembles.py
 """
